@@ -1,0 +1,699 @@
+<html>
+	<head>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js">
+
+		</script><style>
+			pre {       margin-left: 10px;	font-family: "Courier New";	font-size: 10pt;}.spacer{	height: 20px;}.lineHeader{	font-family: "Courier New";	font-size: 10pt;}.primaryHighlight{	color: red;	font-weight: bold;}.secondaryHighlight{	font-weight: bold;	text-decoration: underline;	}.title{    font-weight: bold;    font-size: 14pt;    }
+		</style>
+	</head><body>
+		<h1 class="title">
+			K01803 - triosephosphate isomerase (TIM)
+
+		</h1><table class="lineHeader">
+			<tr>
+				<td>0:
+				</td><td>C_jejuni gb|AIW10579.1
+				</td>
+			</tr><tr>
+				<td>1:
+				</td><td>S_thermosulf 2506239969
+				</td>
+			</tr><tr>
+				<td>2:
+				</td><td>F_novicida sp|A0Q8C4|TPIS_FRATN
+				</td>
+			</tr><tr>
+				<td>3:
+				</td><td>HL111 hotlake_ucc|33136|Ga0071316_0767
+				</td>
+			</tr><tr>
+				<td>4:
+				</td><td>B_bifidum tr|U2CD03|U2CD03_BIFBI
+				</td>
+			</tr><tr>
+				<td>5:
+				</td><td>M_luteus tr|C5CBP6|C5CBP6_MICLC
+				</td>
+			</tr><tr>
+				<td>6:
+				</td><td>M_smegmatis gi|500048087|ref|WP_011728805.1|
+				</td>
+			</tr><tr>
+				<td>7:
+				</td><td>C_gilvus tr|F8A5J9|F8A5J9_CELGA
+				</td>
+			</tr><tr>
+				<td>8:
+				</td><td>S_venezuelae gi|753968121|ref|WP_041663728.1|
+				</td>
+			</tr><tr>
+				<td>9:
+				</td><td>A_cryptum ref|YP_001234366.1
+				</td>
+			</tr><tr>
+				<td>10:
+				</td><td>R_palustris tr|Q6N5T2|Q6N5T2_RHOPA
+				</td>
+			</tr><tr>
+				<td>11:
+				</td><td>HL91 hotlake_ucc|1708|Ga0058931_2651
+				</td>
+			</tr><tr>
+				<td>12:
+				</td><td>P_denitrificans tr|A1BA25|A1BA25_PARDP
+				</td>
+			</tr><tr>
+				<td>13:
+				</td><td>L_pneumophila gi|499250940|ref|WP_010948480.1|
+				</td>
+			</tr><tr>
+				<td>14:
+				</td><td>HL48 hotlake_ucc|72346|CY41DRAFT_2828
+				</td>
+			</tr><tr>
+				<td>15:
+				</td><td>HL93 hotlake_ucc|47046|Ga0071314_3416
+				</td>
+			</tr><tr>
+				<td>16:
+				</td><td>D_acidovorans sp|A9BNB6|TPIS_DELAS
+				</td>
+			</tr><tr>
+				<td>17:
+				</td><td>A_faecalis tr|J0B6R2|J0B6R2_ALCFA
+				</td>
+			</tr><tr>
+				<td>18:
+				</td><td>C_freundii tr|X7I1B7|X7I1B7_CITFR
+				</td>
+			</tr><tr>
+				<td>19:
+				</td><td>P_putida ref|NP_746823.1
+				</td>
+			</tr><tr>
+				<td>20:
+				</td><td>C_baltica tr|A0A0A7K1G4|A0A0A7K1G4_9FLAO
+				</td>
+			</tr><tr>
+				<td>21:
+				</td><td>C_indologenes tr|W4T3G7|W4T3G7_9FLAO
+				</td>
+			</tr><tr>
+				<td>22:
+				</td><td>HL49 hotlake_ucc|60750|K302DRAFT_3095
+				</td>
+			</tr><tr>
+				<td>23:
+				</td><td>P_ruminicola ref|YP_003575145.1|gi|294674529
+				</td>
+			</tr><tr>
+				<td>24:
+				</td><td>B_fragilis tr|E1WMZ5|E1WMZ5_BACF6
+				</td>
+			</tr><tr>
+				<td>25:
+				</td><td>B_thetatiotaomicron_ATCC sp|Q8A0U2|TPIS_BACTN
+				</td>
+			</tr><tr>
+				<td>26:
+				</td><td>S_elongatus tr|Q31NS8|Q31NS8_SYNE7
+				</td>
+			</tr><tr>
+				<td>27:
+				</td><td>F_succinogenes tr|C9RL06|C9RL06_FIBSS
+				</td>
+			</tr><tr>
+				<td>28:
+				</td><td>P_hydrogenalis tr|B6W7U9|B6W7U9_9FIRM
+				</td>
+			</tr><tr>
+				<td>29:
+				</td><td>M_xanthus ref|WP_011552884.1
+				</td>
+			</tr><tr>
+				<td>30:
+				</td><td>S_aurantiaca gi|488693678|ref|WP_002617801.1|
+				</td>
+			</tr><tr>
+				<td>31:
+				</td><td>P_polymyxa gi|503073330|ref|WP_013308264.1|
+				</td>
+			</tr><tr>
+				<td>32:
+				</td><td>B_subtilis_168 sp|P27876|TPIS_BACSU
+				</td>
+			</tr><tr>
+				<td>33:
+				</td><td>B_subtilis_NCBI3610 ref|WP_003243394.1
+				</td>
+			</tr><tr>
+				<td>34:
+				</td><td>L_casei tr|S6C6P7|S6C6P7_LACCA
+				</td>
+			</tr><tr>
+				<td>35:
+				</td><td>S_agalactiae tr|E7S505|E7S505_STRA8
+				</td>
+			</tr><tr>
+				<td>36:
+				</td><td>F_prausnitzii tr|D4KD08|D4KD08_9FIRM
+				</td>
+			</tr><tr>
+				<td>37:
+				</td><td>C_ljungdahlii CLJU_c39130
+				</td>
+			</tr><tr>
+				<td>38:
+				</td><td>C_comes tr|C0B5F2|C0B5F2_9FIRM
+				</td>
+			</tr><tr>
+				<td>39:
+				</td><td>D_longicatena tr|A6BJE0|A6BJE0_9FIRM
+				</td>
+			</tr><tr>
+				<td>40:
+				</td><td>R_gnavus tr|A7B2I0|A7B2I0_RUMGN
+				</td>
+			</tr>
+		</table><table>
+			<tr>
+				<td class="spacer"></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_jejuni gb|AIW10579.1">0</span></td><td><pre>
+	---------------------------MIFAANLKCNHT---RASFKIYAEILNKTIGV-----KC-DDIIVFPPSVAFLE---------NENN--FIQGAQNFYPC-VNGAFTGELGKEHLDEFGIKCVLIGHSERR<span class="secondaryHighlight" title>AL--GDEEFIK</span>A
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_thermosulf 2506239969">1</span></td><td><pre>
+	---------------------MNYTR<span class="secondaryHighlight" title>ETFLIANWK</span>MHKT---VEEGRAFARELVRRLEN---VSPK-HQLIICPTALSLWA----VGQELATSP--VMLGAQNLDLG-REGALTGALSGYLIREAGAR<span class="secondaryHighlight" title>WVIVGHSER</span>R<span class="secondaryHighlight" title>NLFGETDALIGQ</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="F_novicida sp|A0Q8C4|TPIS_FRATN">2</span></td><td><pre>
+	-------------------------MQK<span class="secondaryHighlight" title>LIMGNWK</span>MNGN---STSIKELCSGISQAQYD----TSR-<span class="secondaryHighlight" title>VAIAVFPSSVYVKE----VISQL-PEK--VGVGLQNITFY-DDGAYTGEISAR</span>MLEDIGCDYLLIGHSER<span class="secondaryHighlight" title>RSLFAESDEDVFK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL111 hotlake_ucc|33136|Ga0071316_0767">3</span></td><td><pre>
+	-----------------------M<span class="secondaryHighlight" title>PQRPYIVGNWK</span>MHGTRAMLSEARAIDRAAQR<span class="secondaryHighlight" title>HMK---------VEVAIAPPYTLIHP----VHR</span>--EAEQ--IGVGAQDCHHE-DGGAHTGDISAVMVADAGAKFVILGHSER<span class="secondaryHighlight" title>RQNHGESDAIIRA</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_bifidum tr|U2CD03|U2CD03_BIFBI">4</span></td><td><pre>
+	----------------------MASRIPLLAGNWKMNLD---HLEATYFVQKLVWLLRDARFDYSR-CEIALMPSFTSLRS----VQVLVEADKLKIRYGAQAVSVT-TQGAFTGDVSADMIAHLGCSYVIVGHSERR<span class="secondaryHighlight" title>KYHPEDDVNIVD</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="M_luteus tr|C5CBP6|C5CBP6_MICLC">5</span></td><td><pre>
+	-------------------MAEQTTRVPLIAGNWK<span class="secondaryHighlight" title>MNLD---HLEAVTLVQRLTWLLSDADHDQEA-VEVAVFPPFTGLR</span>S----VQTLVTGDRLDLVYGAQDLSPE-DAGAYTGDVSGAFLAALGCR<span class="secondaryHighlight" title>YAIVGHSE</span>RR<span class="secondaryHighlight" title>TLHGEDDALVAR</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="M_smegmatis gi|500048087|ref|WP_011728805.1|">6</span></td><td><pre>
+	-----------------------MAR<span class="secondaryHighlight" title>KPLIAGNWKMNLN---HFEAIALVQKIAFALPD--KYFDK-VDVTVIPPFTDLRS----VQTLVDGDKLRLTYGAQDLSQH-DSGAYTGEISGAFLAK</span>LGCTFVIVGHSER<span class="secondaryHighlight" title>RTYHGETDELVAA</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_gilvus tr|F8A5J9|F8A5J9_CELGA">7</span></td><td><pre>
+	----------------------MAQR<span class="secondaryHighlight" title>TPLMAGNW<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>MNLD---HQQAIQTLQKLAWTLKDAKHDYGT-VEVAVIPPFTDLRS----VQTLVDADQLEIVYGAQDVSAH-ESGAYTGEIAPAFLTKLGVTYAVIGHSERREYHAESDELVNA</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_venezuelae gi|753968121|ref|WP_041663728.1|">8</span></td><td><pre>
+	-----------------------------MAGNWK<span class="secondaryHighlight" title>MNLN---HLEAIAHVQKLAFALTD--K</span>DYDA-C<span class="secondaryHighlight" title>EVAVLVPFTDLRS----VQTLVDGDKLKIKYGAQDISAH-DSGAYTGEISGLMLSK</span>LKCSYVAVGHSERRQYHAEDDEVCNA
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="A_cryptum ref|YP_001234366.1">9</span></td><td><pre>
+	-------------------------MPQLIAGNWKMNGT---LAGIAAYAAALRPASPG--------AELLVCPPAPLIAP----LRAALDGAP--VALGAQDCAVK-R<span class="secondaryHighlight" title>SGAHTGDLSADLLAELGATHVILGHSERRADHAESSATVR</span>E
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="R_palustris tr|Q6N5T2|Q6N5T2_RHOPA">10</span></td><td><pre>
+	MSLAIGSASGTLQPFIARVLM<span class="secondaryHighlight" title>PVPAVRPLIAGNWKMN-------GLKDSVAELDAMLK</span>GAAELPQG-IDLLVCPPATLVASFAARVAEAQAGKALPFSIGGQDCHAN-ASGAHTGDIAAEMLADAGAAAIIVGHSER<span class="secondaryHighlight" title>RADHAENDAIVR</span>A
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL91 hotlake_ucc|1708|Ga0058931_2651">11</span></td><td><pre>
+	------------------------M<span class="secondaryHighlight" title>PC<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>LAAGNW<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>MNG----LR</span>ADLEELR<span class="secondaryHighlight" title>ALIAAQPE-----PD-CGVLICPPATLLAP----MAAIADGSR</span>--LLLGGQDCHTG-QSGAHTGDISAAMLADAGAR<span class="secondaryHighlight" title>HVILGHSERRADHGESSDLVAA</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_denitrificans tr|A1BA25|A1BA25_PARDP">12</span></td><td><pre>
+	-----------------------MAPR<span class="secondaryHighlight" title>KLAAGNWKMNGT-------LAALAEIDRLLAD--HPAPG-CEVLICPPATLIHP----MAAR</span>SQG-R--IAVGGQDCHAK-<span class="secondaryHighlight" title>TSGAHTGDIAAAQLRDAGSSHVILGHSERR</span>TDHAETDEQVRA
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="L_pneumophila gi|499250940|ref|WP_010948480.1|">13</span></td><td><pre>
+	------------------------MRQKIVAGNWKMNGQ---IQQVTELVSQIEELIGF-----DCAAQVAVMPPSIYIPK----VRDCLRTGK--<span class="secondaryHighlight" title>IVVGAQNVYPK</span>-<span class="secondaryHighlight" title>DYGAYTGELSAPMLK</span>DFDCR<span class="secondaryHighlight" title>YVLVGHSERRQFFHEDENFVAQ</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL48 hotlake_ucc|72346|CY41DRAFT_2828">14</span></td><td><pre>
+	------------------------MR<span class="secondaryHighlight" title>RPLIAGNWKMNGS---AALVEAFGKAFADAQLP-----AN-VDMVVIPPFPYLDA----AR</span>HAFKNTP--LR<span class="secondaryHighlight" title>LGAQTLNPL-HSGAHTGEVSGR</span>MLK<span class="secondaryHighlight" title>EFDVAYALVGHSERR</span>QLYR<span class="secondaryHighlight" title>ETDEQVFE</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL93 hotlake_ucc|47046|Ga0071314_3416">15</span></td><td><pre>
+	------------------------MR<span class="secondaryHighlight" title>RPLIAGNWKMNGS---AALVEAFGK</span>AFAAAK<span class="secondaryHighlight" title>LP-----TN-IDMVVIPPFPYLDA----AR</span>HAFKNTP--LR<span class="secondaryHighlight" title>LGAQTLNPL-HSGAHTGEVSGR</span>MLKEFEVA<span class="secondaryHighlight" title>YVLVGHSERR</span>QLYR<span class="secondaryHighlight" title>ETDEQVFE</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="D_acidovorans sp|A9BNB6|TPIS_DELAS">16</span></td><td><pre>
+	------------------------MKKK<span class="secondaryHighlight" title>LIVGNWK</span>MNGG---LAANAVLLKALKEGLPE----GGN-AGVAVAVPAVYLAQ----AQAELEGSA--IGVAAQDVSQH-ESGAYTGELSAAMLRDFGVR<span class="secondaryHighlight" title>YTLVGHSERRQYHGETDAVVAL</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="A_faecalis tr|J0B6R2|J0B6R2_ALCFA">17</span></td><td><pre>
+	-------------------MSVHSSRKRLVAGNWK<span class="secondaryHighlight" title>LNGS---LDGNSR</span>LLQELLVRPEM----QAE-CDVLVCVPYVYLPQ----AVSILK<span class="secondaryHighlight" title>GSA--IAVGAQDVSVH-AK</span>GAYTGEVSAAMLADIGCR<span class="secondaryHighlight" title>WVIVGHSERRQYHQESSAQVAA</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_freundii tr|X7I1B7|X7I1B7_CITFR">18</span></td><td><pre>
+	------------------------<span class="secondaryHighlight" title>MRHPLVMGNWK</span>LNGS---R<span class="secondaryHighlight" title>HMVNELVANLRKELAG----VAG-CAVAIAPPEMYIDL----AKHAAAGSH--IILGAQNVDLN-LSGAFTGETSAEMLKDIGAQYIIIGHSERRTYH<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>ESDELIA<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span></span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_putida ref|NP_746823.1">19</span></td><td><pre>
+	------------------------MRRPMVAGNWKMHGT---RASVAELTK<span class="secondaryHighlight" title>GLSNLALP-----SG-VEVAVFPPALFINQ----VIDGLAGK</span>E--ITVGAQNSAVQPEQGALTGEVAPEQLVEAGCK<span class="secondaryHighlight" title>LVLIGHSERRQIIGETDEVLNR</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_baltica tr|A0A0A7K1G4|A0A0A7K1G4_9FLAO">20</span></td><td><pre>
+	------------------------MRSKIVAGNWKMNK<span class="secondaryHighlight" title>N---GAETEALLAELSAKLPD-----TT-AEVMVAPTFVNLVG----AVR</span>SLESST--IEVIAQNMHYA-ENGAFTGEISADMLLNVGVDTVLIGHSERR<span class="secondaryHighlight" title>AYFGETDAILAK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_indologenes tr|W4T3G7|W4T3G7_9FLAO">21</span></td><td><pre>
+	------------------------MRR<span class="secondaryHighlight" title>KIVAGNWKMNKN---VIDAQQLMIQLLSYK</span>NN---NTTN-CEVWIAPPSLYLMM----AKDIFEKDE--IGVFSQDMSEH-ESGAYTGEISADMLESIDATGSLIGHSERRQYHGETDSHCNR
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL49 hotlake_ucc|60750|K302DRAFT_3095">22</span></td><td><pre>
+	------------------------MRK<span class="secondaryHighlight" title>KIIAGNWKMNMT---YDEGQILTSEIVQMAQD--EQLK</span>D-VILVLNPPFPHLHV----VKKLIGGAS-NVFVGAQNCSDK-ESGAYTGEVSAPILASFGVSFVIIGHSERR<span class="secondaryHighlight" title>EYFEETNELLTE</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_ruminicola ref|YP_003575145.1|gi|294674529">23</span></td><td><pre>
+	------------------------MRKKIVAGNWK<span class="secondaryHighlight" title>MNMN---LQDGIALAK</span>ELNETLKA---DKPN-CGVVICTPFIHLAS----IAQFLDQDI--IGLGAENCADK-EK<span class="secondaryHighlight" title>GAFTGEVSAEMVKSTGAQYVILGHSERREYYKETPEILKE</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_fragilis tr|E1WMZ5|E1WMZ5_BACF6">24</span></td><td><pre>
+	------------------------<span class="secondaryHighlight" title>MR<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>NIVAGNWKMN<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>T---LQEGIALA<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>ELNEALAN---E<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>PN-CDVIICTPFIHLAS----VTPLVDAA<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>--IGVGAENCAD<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>-ESGAYTGEVSAAMVASTGAKYVILGHSERRAYYGETVEILKD</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_thetatiotaomicron_ATCC sp|Q8A0U2|TPIS_BACTN">25</span></td><td><pre>
+	------------------------MR<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span><span class="secondaryHighlight" title>NIVAGNWKMN<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>T---LQEGIALA<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>ELNEALAN---E<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>PN-CDVIICTPFIHLAS----VTPLVDAA<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>--IGVGAENCAD<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>-ASGAYTGEVSAEMVASTGAKYVILGHSERRAYYGETVAILEE</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_elongatus tr|Q31NS8|Q31NS8_SYNE7">26</span></td><td><pre>
+	---MGEVRRHLKLVNGLARSEQSAVRR<span class="secondaryHighlight" title>IIIAGNWK</span>MYK<span class="secondaryHighlight" title>T---QAEALEFLQAFLPQLSE----TPESR</span>KVVLCAPFTTLSS----LSKTLHGSR--VR<span class="secondaryHighlight" title>VGAQNIHWA-KEGAFTGEISGAMLTEIGVRYVVVGHSERRQYFGETDETVNQ</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="F_succinogenes tr|C9RL06|C9RL06_FIBSS">27</span></td><td><pre>
+	------------------------MR<span class="secondaryHighlight" title>QYIIAGNWKMNKT---VSESVQLA<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>DIVEAVKD----VK<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>-TEVVIAPTYLAAA<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>----VADVV<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>GTN--V<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>LAIQDIHW<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>-DQGAYTG<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>VSIDMVKEIGAEYVIIGHSEQRQYFHETEETVNL</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_hydrogenalis tr|B6W7U9|B6W7U9_9FIRM">28</span></td><td><pre>
+	------------------------<span class="secondaryHighlight" title>MRTPVIVGNWKMNMT---PSQAKTLLEELVKLDLD-----ES-VEKGVCVPAIDLLL----ASEILKDSD--IKFGAENMHYE-ESGAYTGEISPTMLNDIKADYVILGHSERREYF<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>EDDELINK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="M_xanthus ref|WP_011552884.1">29</span></td><td><pre>
+	--------------------MATARRR<span class="secondaryHighlight" title>KIVAGNWK</span>MNK<span class="secondaryHighlight" title>S---VPEALALVR</span>DLRGQVAS---LGDT-VEVVVAPPFVALQP----LHVALEGAP--LALAAQNCHWE-SSGAFTGEISAPMLAELGCAYVIVGHSER<span class="secondaryHighlight" title>RQLFGDTDEQVNK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_aurantiaca gi|488693678|ref|WP_002617801.1|">30</span></td><td><pre>
+	--------------------MAAEARRKIVAGNWKMNKT---V<span class="secondaryHighlight" title>PEALALVR</span>ELR<span class="secondaryHighlight" title>GLVSA---LGDK-VELVIAPPFVALHP----VAKAIEDSN--LK</span>LAAQNCHWE-ASGAFTGEVAAPMLKEVGCAYVIVGHSER<span class="secondaryHighlight" title>RQFFGETDETVNK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_polymyxa gi|503073330|ref|WP_013308264.1|">31</span></td><td><pre>
+	------------------------<span class="secondaryHighlight" title>MRTPIIAGNWKMF<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>T---VPEA<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>TFIEEIKGKAEV-----AG-VESVICAPFTNLPA----LVEAV<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>GTS--I<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>IGAQNLHFA-EDGAFTGEISGGMLKDLGVDYVVIGHSERREYFNETDETVNK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_subtilis_168 sp|P27876|TPIS_BACSU">32</span></td><td><pre>
+	------------------------<span class="secondaryHighlight" title>MRKPIIAGNWKMN<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>T---LGEAVSFVEEVK</span>SSIPA----ADK-AEAVVCAPALFLEK----<span class="secondaryHighlight" title>LASAVKGTD--LKVGAQNMHFE-ESGAFTGEISPVALKDLGVDYCVIGHSERREMFAETDETVNK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_subtilis_NCBI3610 ref|WP_003243394.1">33</span></td><td><pre>
+	------------------------MRKPIIAGNWK<span class="secondaryHighlight" title>MN<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>T---LGEAVSFVEEVKSSIPA----ADK-AE</span>AVVC<span class="secondaryHighlight" title>APALFLE<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>----LASAV<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>GTD--LKVGAQNMHFE-ESGAFTGEISPVALK</span>DLGVDYCVIGHSER<span class="secondaryHighlight" title>REMFAETDETVNK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="L_casei tr|S6C6P7|S6C6P7_LACCA">34</span></td><td><pre>
+	------------------------<span class="secondaryHighlight" title>MRTPFIAGNWK</span>MNKN---PKETQAFLDAVK<span class="secondaryHighlight" title>GKLPD----AS<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>-VETVIGAPAIDLTT----LVAGAEGTP--LK</span>TAAENCYFE-DEGAYTGETSPKALKEMGVDYVIIGHSER<span class="secondaryHighlight" title>RGYFHETDEDINK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_agalactiae tr|E7S505|E7S505_STRA8">35</span></td><td><pre>
+	-----------------------M<span class="secondaryHighlight" title>SRKPFIAGNWK</span>MNKN---PEEAK<span class="secondaryHighlight" title>AFIEAVASKLPS----SEL-VEAGIAAPALTLST----VLEAAKGSE--LKIAAQNSYFE-NSGAFTGENSPKVLAEMGTDYVVIGHSERRDYFHETDQDINK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="F_prausnitzii tr|D4KD08|D4KD08_9FIRM">36</span></td><td><pre>
+	--------------------MDKVKR<span class="secondaryHighlight" title>KAIIAGNWKMNKT---ASEAAVLVDELIPAVKD-----AT-CEVVICTPFTDLVT----AVAKTKGTN--IHVGAENVHFE-KSGAFTGEISADMLVDLGVEYVIVGHSERRQYFAETDQTVNK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_ljungdahlii CLJU_c39130">37</span></td><td><pre>
+	------------------------MR<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span><span class="secondaryHighlight" title>AIIAGNWKMN<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>T---VTEAL<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>LVEEL<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>PLVSD-----AK</span>-CDVVVCPPYVCLDA----VVKAVKGSN--IK<span class="secondaryHighlight" title>VGAQNMHYE-ESGAYTGEVAPNMLKDIGIDFVIIGHSERRQYFNETDESINK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_comes tr|C0B5F2|C0B5F2_9FIRM">38</span></td><td><pre>
+	-----------------------MARK<span class="secondaryHighlight" title>KIIAGNWKMNMT---PSEAVELVNTLKSLVVT-----EE-ADVVFCVPAIDIIP----VVEAAKGSN--IQVGAENMYFE-EKGAYTGEISPNMLTDAGVKYVVLGHSERREYFAETNETVNK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="D_longicatena tr|A6BJE0|A6BJE0_9FIRM">39</span></td><td><pre>
+	-----------------------MARK<span class="secondaryHighlight" title>KIVAGNWKMNKT---PSEAVALVEEL<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>PLVAN-----ED-VDVVFCVPAIDIIP----VAEAVKGTN--IQVGAENMYFE-ESGAYTGEISPAMLTDAGVKYVVLGHSERR</span>EYFAETNETVNK
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="R_gnavus tr|A7B2I0|A7B2I0_RUMGN">40</span></td><td><pre>
+	-----------------------MSRKK<span class="secondaryHighlight" title>IIAGNWKMNKT---PSEAVALVEELKPLVAN-----EE-VDVVFCVPAIDIVP----VVEAVKGTN--IQVGAENMYFE-ESGAYTGEISPAMLVDAGVKYVVLGHSERRDYFGETNEDVNK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title=" "></span></td><td><pre>
+	                               .* *                                    .  .                     .    :        ** **  .   :         :****.*
+</pre></td>
+			</tr><tr>
+				<td class="spacer"></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_jejuni gb|AIW10579.1">0</span></td><td><pre>
+	KFDFAKEHGYKIVFCIGENLDTKNSGK<span class="secondaryHighlight" title>TLEFLKK</span>QLEII---DLNYE------KLI----IAYEPIYSIGTGVSAQSTDIAK<span class="secondaryHighlight" title>VLEFLASL----------TKVPLLYGGSVNENNIK</span>EILSVNHCGGVLIGSAALKVENFIKLIKG----
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_thermosulf 2506239969">1</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>VAQAFEAHLRPILCVGESLDDYR<span class="secondaryHighlight" title>SGQTFAVITRQIEAIFP-YTNSEVLK</span>---<span class="secondaryHighlight" title>SLV----VAYEPVWAIGSGEVPEPKQANEVAGLIR</span>QILSKQISDD-ANTVPVLYGGSVSSNNIHQFLEQAHIDGSLVGGASLQVDEFLKMADIGH--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="F_novicida sp|A0Q8C4|TPIS_FRATN">2</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>LNKIIDTTITPVVCIGESLDDRQSGK<span class="secondaryHighlight" title>LKQVLATQLSLILE-NLSVEQLA---KVV----IAYEPVWAIGTGVVASLDQIQETHQFIR</span>SLLAKV-DERLAKNIK<span class="secondaryHighlight" title>IVYGGSLKAENAKDILSLPDVDGGLIGGASLKAAEFNEIINQANK</span>I
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL111 hotlake_ucc|33136|Ga0071316_0767">3</span></td><td><pre>
+	<span class="secondaryHighlight" title>KVEAALAAGLRIILCCGESDKTR</span>EAGK<span class="secondaryHighlight" title>AVSFVKRQL<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>ASLP-VGHEALAAASERLT----IAYEPIWAIGTGNSATVEDIAEMHR</span>EIR<span class="secondaryHighlight" title>TLLVELFGEEQGAEVR</span>ILYGGSVKPENAGQILSAPEVGGALVGGASLTVDSFMSIALAAAEA
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_bifidum tr|U2CD03|U2CD03_BIFBI">4</span></td><td><pre>
+	<span class="secondaryHighlight" title>QVR</span>AVLAAGMQPILCVGESFEERRQGIELDFAVGQVHDVTR-DLSDKEAA---K<span class="secondaryHighlight" title>LI----IAYEPVWAIGTGMVATPDTAQQAAKAIRDDLGEMFGPAVADTVRILYGGSVSSK</span>NATHLIGEPDVDGFLIGGASLDPDELAKIARLTLKA
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="M_luteus tr|C5CBP6|C5CBP6_MICLC">5</span></td><td><pre>
+	KAAAALRHGLTPVICVGEGLEVRQAGRHVEHTLAQLEGSIA-GLSAQDVA---GVV----VAYEPVWAIGTGEVAGPEDAQQMCAALRAR<span class="secondaryHighlight" title>VAALHGDDVAAGLRILYGGSVK</span>SSSAPALLAQPDVDGALVGGASLDADEFAKIVRFDQA-
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="M_smegmatis gi|500048087|ref|WP_011728805.1|">6</span></td><td><pre>
+	<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span><span class="secondaryHighlight" title>A<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>AAH<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>HGLTPIVCIGEQLEVREAGNHVEFNVNSLRGSLA-GLTPEQIG---QTV----IAYEPVWAIGTGR</span>VAGAADAQEVCK<span class="secondaryHighlight" title>AIRGELANLSSSEIAAGVRVLYGGSVNAK</span>NVGEIVSQGDVDGALVGGASLDGEQFATLSAIAAGG
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_gilvus tr|F8A5J9|F8A5J9_CELGA">7</span></td><td><pre>
+	<span class="secondaryHighlight" title>KVKNALGAGLKPILCVGEKLEVRKAGEHVPVTLGQLDGGLA-GLTAEQVR</span>---<span class="secondaryHighlight" title>DVV----VAYEPVWAIGTGETATPEDAQELCEAIRVRIAELYDQDTADAVRVLYGGSV<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>SSNVASIMT<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>PDVDGALIGGASLDPEEFA<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>IVR</span>YQSHA
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_venezuelae gi|753968121|ref|WP_041663728.1|">8</span></td><td><pre>
+	KVKAAFKHGVTPILCVGEGLDIR<span class="secondaryHighlight" title>KAGQQVEYTLAQLDGGLK</span>-DVPAEQAE---SIV----IAYEPVWAIGTGEVATPEDAQEVCGAIR<span class="secondaryHighlight" title>GRLAELYSQELADKVR</span>IQYGGSVK<span class="secondaryHighlight" title>SGNVAAIMAQPDVDGALVGGAALDADEFVK</span>IVRFRDQ-
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="A_cryptum ref|YP_001234366.1">9</span></td><td><pre>
+	KARTAIAAGLVPIICVGETEAERDSGEAETVVR<span class="secondaryHighlight" title>AQLAGSLPEELAGQTVP---GVVAPGIIAYEPVWAIGTGRTPTEEDVAAMHASIR</span>AALRRQLGAA-GATMPILYGGSVKPSNAASLLALPEVGGALVGGASLKAEDFLAIASAAARD
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="R_palustris tr|Q6N5T2|Q6N5T2_RHOPA">10</span></td><td><pre>
+	KAQAVWRAGLVAIVCVGETQGER<span class="secondaryHighlight" title>DAGHTLDVVAGMLAGSLP-DGATAA-----NLV----VAYEPVWAIGTGRTPTAADVEEVHGFIRKTLSDRFGAA-GETMRILYGGSVKPSNARELLAVPHVNGALIGGASLK</span>ASDFLAIAAGCP--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL91 hotlake_ucc|1708|Ga0058931_2651">11</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>ARAAHDAGLTAIICVGETEAERDAGR<span class="secondaryHighlight" title>TLDVVLGQLR</span>DSTP---K<span class="secondaryHighlight" title>AATAA---NTV----IAYEPVWAIGTGRTPTLAQIAEVHDALR</span>AAVPD-------AEISLLYGGSVKPGNAADIFALANVDGALVGGASLKAADFSAIIAALDAA
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_denitrificans tr|A1BA25|A1BA25_PARDP">12</span></td><td><pre>
+	KAAAAHEAGLVAVICVGETEVQR<span class="secondaryHighlight" title>DAGQTLDVISAQLAGSVP-DGATAA-----NTV----IAYEPVWAIGTGRTPTSDQIAEVHALMR</span>ERLSAR<span class="secondaryHighlight" title>LGD--GADFALLYGGSVKPGNAAEIFAIPHVNGALVGGASLK</span>AEDFGPIIAALSAA
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="L_pneumophila gi|499250940|ref|WP_010948480.1|">13</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>FHHVKDHGMIPVLCVGETLSER<span class="secondaryHighlight" title>ENGKTEQVIAQQVLAVS--AKGKDCFR---DCV----VAYEPVWAIGTGK</span>TATPEQAQKIHQFIR<span class="secondaryHighlight" title>DLVGEINDSD-AKHLTLIYGGSVNENNAKALFSMPDIDGGLVGGASLNAKQFVEIVK</span>CIN--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL48 hotlake_ucc|72346|CY41DRAFT_2828">14</span></td><td><pre>
+	<span class="secondaryHighlight" title>R</span>LMAALDVGLTPILCVGETLEER<span class="secondaryHighlight" title>DAGHTMDVVLR</span>QVGHVMA-RLETAQRS---EVV----IAYEPVWAIGTGR<span class="secondaryHighlight" title>TATPEQAQDVMAGIRAYQAS-FDTSLAEQLRLLYGGSMNANNAAELLAQPDIDGGLVGGASLK</span>TDDFYAICQSAG--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL93 hotlake_ucc|47046|Ga0071314_3416">15</span></td><td><pre>
+	<span class="secondaryHighlight" title>R</span>LMAALEVGLTPILCVGETLEER<span class="secondaryHighlight" title>DAGHTMDVVLR</span>QVGHVMA-RLETAQRS---EVV----IAYEPVWAIGTGR<span class="secondaryHighlight" title>TATPEQAQEVMAGIR</span>AYQAS-FDTSLAEQLK<span class="secondaryHighlight" title>LLYGGSMNANNAAELLAQPDIDGGLVGGASLK</span>TDDFYAICQSAG--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="D_acidovorans sp|A9BNB6|TPIS_DELAS">16</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>AQAALAKGVTPIVCVGETLAER<span class="secondaryHighlight" title>EAGQTEEVVKR</span>QLAAVI--HQVGQCIN---ELV----VAYEPVWAIGTGR<span class="secondaryHighlight" title>TATPEQAQQVHAVLRAQLAA--ASQQADRIALLYGGSMNASNAAQLLAQADIDGGLVGGASLK</span>AADFLTIIAAAQ--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="A_faecalis tr|J0B6R2|J0B6R2_ALCFA">17</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>VLAALDAGVTPIVCVGEQLADRQAGQEVCVVQDQLE-PIK-<span class="secondaryHighlight" title>ALGAQIVS---RLV----LAYEPVWAIGTGLTASPQQAQQMHQQIRAYMES-------DQVRILYGGSVK</span>ADNAAELFAMPDIDGALVGGASLDAQEFLRIVAA----
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_freundii tr|X7I1B7|X7I1B7_CITFR">18</span></td><td><pre>
+	<span class="secondaryHighlight" title>KFAVLKEQGLTPVLCIGETEAENEAGKTEEVCAR</span>QIDAVLK-<span class="secondaryHighlight" title>TQGAAAFE---GVV----IAYEPVWAIGTGKSATPAQAQAVH<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>FIRDHIA<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>A-DAKIAEQVIIQYGGSVNAANAAELFAQPDIDGALVGGASLKADAFAVIV<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>AAEAA</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_putida ref|NP_746823.1">19</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>FAAAQAKGLKPVLCIGETLEEREAGKTLEVVGR<span class="secondaryHighlight" title>QLSSIIE-AFGVKAFA---DAV----IAYEPVWAIGTGLTATPQQAQDVHAAIRGQLAAE-DAEVAAKVQLLYGGSVK</span>AANAAELFGMPDIDGGLIGGASLNADEFGAICRAAGN-
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_baltica tr|A0A0A7K1G4|A0A0A7K1G4_9FLAO">20</span></td><td><pre>
+	<span class="secondaryHighlight" title>KVVAALAK</span>NMRIIFCFGEELEDR<span class="secondaryHighlight" title>KSDNHFNVVASQLKNALF-SLEASAWK</span>---<span class="secondaryHighlight" title>NIV----LAYEPVWAIGTGETASPEQAQEMHAFIR</span>KTITEAFDATIANNVSILYGGSVKPN<span class="secondaryHighlight" title>NAVEIFSKPDVDGGLIGGAALVADDFVAIIK</span>AI---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_indologenes tr|W4T3G7|W4T3G7_9FLAO">21</span></td><td><pre>
+	KIKLALDKGLIPVYCNGETLEQR<span class="secondaryHighlight" title>KAGEHFEVVKNQTEVALF-TLSAEEIK---KVV----IAYEPVWAIGTGETASPEQAQEIHAHIR</span>SIIAAK<span class="secondaryHighlight" title>YGQEVADEVSILYGGSVKPDNAKEIFSQPDIDGGLIGGAALKLEDFSK</span>IIEAFN--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL49 hotlake_ucc|60750|K302DRAFT_3095">22</span></td><td><pre>
+	<span class="secondaryHighlight" title>KVKQALAAGLQPIFCCGESLDIREAGTHEPNVKYQLTDSLF-ELSAEEIS---KVT----IAYEPIWAIGTGKTASAEQAQEMHAAIRK</span>HLAGKYGK<span class="secondaryHighlight" title>EVADSISILYGGSMKPSNAAELLAKPDVDGGLIGGASLKSRDFIDIAK</span>SY---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_ruminicola ref|YP_003575145.1|gi|294674529">23</span></td><td><pre>
+	<span class="secondaryHighlight" title>KVLLAQKNDLK</span>VIFCIGESLEER<span class="secondaryHighlight" title>EAGKQNEVVKAELEGSVF-NLSEEDFR---KIV----IAYEPIWAIGTGKTATAEQAEEIHAYIR</span>SIIAEKYGQAVADDTTILYGGSCK<span class="secondaryHighlight" title>ASNAPELFAKPDIDGGLIGGASLK</span>AADFK<span class="secondaryHighlight" title>GIIDAWKK</span>-
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_fragilis tr|E1WMZ5|E1WMZ5_BACF6">24</span></td><td><pre>
+	<span class="secondaryHighlight" title>KVKLALANGLTPIFCIGEVLEEREAN<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>QNEVVAAQLASVF--DLSAEDFS---KIV----LAYEPVWAIGTG<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>TASPAQAQEIHAFIRSAVAEKYGKEIADNTSILYGGSCKPSNAKELFANPDVDGGLIGGAAL<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>VADFKGIIDAFN</span>--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_thetatiotaomicron_ATCC sp|Q8A0U2|TPIS_BACTN">25</span></td><td><pre>
+	<span class="secondaryHighlight" title>KVKLALANGLTPIFCIGEVLEEREAN<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>QNEVVAAQMESVF--SLSAEDFS---<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>II----LAYEPVWAIGTG<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>TASPEQAQEIHAFIRSIVADKYGKEIADNTSILYGGSCKPSNAKELFSNPDVDGGLIGGAAL<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>VSDFK</span>GIIDAFNA-
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_elongatus tr|Q31NS8|Q31NS8_SYNE7">26</span></td><td><pre>
+	<span class="secondaryHighlight" title>R</span>LLAAQSFGLLPILCVGESKQQR<span class="secondaryHighlight" title>DAGETEAVISR</span>QLER----GLVGADQT---NLV----IAYEPIWAIGTGDTCAAEEANRVIGLIRSQLKD-------TDVPIQYGGSVKPENIDEIMAQPEIDGALVGGASLEAESFARIVNYQS--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="F_succinogenes tr|C9RL06|C9RL06_FIBSS">27</span></td><td><pre>
+	<span class="secondaryHighlight" title>KVKK</span>TLEAGLKPIICIGETLDQR<span class="secondaryHighlight" title>NGGIL<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>EVLGLQI<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>GAF<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>-DVSAEDAA---<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>CV----LAYEPVWAIGTGVTATDEQAEETQAYVRSVV<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>EIYGEAVAEGMRIQYGGSM<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>GANAAGLLAQ<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>DIDGGLIGGAGL<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>ANTF<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>EIIDAAEAK</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_hydrogenalis tr|B6W7U9|B6W7U9_9FIRM">28</span></td><td><pre>
+	<span class="secondaryHighlight" title>KVLSALDHDITPILCVGETLEEREANKQEE<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>V<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>DQLEKDL<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>-GIEGSDIT---KVI----IAYEPIWAIGTGKTASAEDADDMCLFIRNYIKEAFCEDCSQKIRIQYGGSM<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>PNNVKELLAKENIDGGLIGGASLKAEDFEKLVNHKK</span>--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="M_xanthus ref|WP_011552884.1">29</span></td><td><pre>
+	<span class="secondaryHighlight" title>R</span>AKAVR<span class="secondaryHighlight" title>AAGMTPIICVGETLAEREANQTLAVVER</span>QVR<span class="secondaryHighlight" title>GALE-GFGAKEVA---GFV----LAYEPVWAIGTGRNATAAQAQEVHAAIRG</span>LVER<span class="secondaryHighlight" title>LYDGETAGRVRIQYGGSVKPDNAAELLGQPDVDGALVGGASLKAGDFAAIVK</span>AAT--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_aurantiaca gi|488693678|ref|WP_002617801.1|">30</span></td><td><pre>
+	<span class="secondaryHighlight" title>R</span>SQAVLKAGMVPIICVGETLAEREANR<span class="secondaryHighlight" title>TLEVVER</span>QVK<span class="secondaryHighlight" title>GALA-GFSAADVA---RFV----LAYEPVWAIGTGRTATSAQAQEVHAAIR</span>SQLAR<span class="secondaryHighlight" title>LYDGAAAGQVRIQYGGSVKPDNAAELLGQPDVDGALVGGASLKAGDFAAIVK</span>AGA--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_polymyxa gi|503073330|ref|WP_013308264.1|">31</span></td><td><pre>
+	<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span><span class="secondaryHighlight" title>VHAAFRHGLTPIVCVGEKLEDREAGQT<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>EVV<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>VQTVAAFA-GLAKDQAA---QVV----VAYEPIWAIGTGKSSTSQDANEVISYIRSLI<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>ELYDENTANAVRIQYGGSVKPENVTEYLGQSDIDGALVGGASLQPASYIALVEGAK</span>--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_subtilis_168 sp|P27876|TPIS_BACSU">32</span></td><td><pre>
+	<span class="secondaryHighlight" title>KAHAAFKHGIVPIICVGETLEEREAG<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>TNDLVADQVKKGLA-GLSEEQVA---ASV----IAYEPIWAIGTGKSSTAKDANDVCAHIRKTVAESFSQEAADKLRIQYGGSVKPANIKEYMAESDIDGALVGGASLEPQSFVQLLEEGQYE</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_subtilis_NCBI3610 ref|WP_003243394.1">33</span></td><td><pre>
+	<span class="secondaryHighlight" title>KAHAA</span>FK<span class="secondaryHighlight" title>HGIVPIICVGETLEEREAG<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>TNDLVADQVK<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>GLA-GLSEEQVA---ASV----IAYEPIWAIGTGK</span>SSTAKDANDVCAHIR<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span><span class="secondaryHighlight" title>TVAESFSQEAADKLRIQYGGSVKPANIKEYMAESDIDGALVGGASLEPQSFVQLLEEGQYE</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="L_casei tr|S6C6P7|S6C6P7_LACCA">34</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>AKAIFRNNLLPIICCGE<span class="secondaryHighlight" title>SLTQREAGQTEDWVASQIEAALA-GLTADQV<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>---VSV----LAYEPIWAIGTG<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>TATADQAQEVVAHIRATVE<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>LYN<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>DTADAVRILYGGSV<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>PANVKELMAKPDIDGGLVGGASMDPESFIALANYQD</span>--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_agalactiae tr|E7S505|E7S505_STRA8">35</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>AK<span class="secondaryHighlight" title>AIFANGLTPIICCGESLETYEAGK</span>AVEFVGAQVSAALA-GLSEEQVS---SLV----IAYEPIWAIGTGK<span class="secondaryHighlight" title>SATQDDAQNMCKAVRDVVAADFGQAVADKVR</span>VQYGGSVKPENVAEYMACPDVDGALVGGASLEAESFLALLDFVK--
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="F_prausnitzii tr|D4KD08|D4KD08_9FIRM">36</span></td><td><pre>
+	<span class="secondaryHighlight" title>RTLAALNAGLKVILCVGESLQQREEGVTEELVRMQT<span class="primaryHighlight Acetyl secondaryHighlight" title="Acetyl">K</span>IALR-DVTAEQME---NVV----IAYEPVWAIGTGKTATSDQAEEVCAQIRKVVGELYGEAVAEATTVQYGGSMNAKNCEELLSKKDVDGGLIGGASLKAPDFAVIVNAATKG</span>
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_ljungdahlii CLJU_c39130">37</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>VK<span class="secondaryHighlight" title>KAFEYDINPIVCCGETLEERESDVTEEVLGK</span>QIK<span class="secondaryHighlight" title>IDLA-GLEK</span>SQVG---K<span class="secondaryHighlight" title>LV----VAYEPIWAIGTGKTATDKQANETIAYIR</span>SVIAKMYGRETAEKTR<span class="secondaryHighlight" title>IQYGGSVKPATIKAQMAQSDIDGALVGGASLK</span>SEDFAKIVNY----
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_comes tr|C0B5F2|C0B5F2_9FIRM">38</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>MLK<span class="secondaryHighlight" title>AFEHGLTPIMCCGETLEQREQGVTMDFIR</span>QQVK<span class="secondaryHighlight" title>VGFQ-NVTADQAK</span>---<span class="secondaryHighlight" title>TAV----IAYEPIWAIGTGKTATTEQAQEVCK</span>AIR<span class="secondaryHighlight" title>ECIAEVYDEATAEAIRIQYGGSVNAATAPELFAQPDIDGGLVGGASLKPD-FGK</span>IVNWK---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="D_longicatena tr|A6BJE0|A6BJE0_9FIRM">39</span></td><td><pre>
+	KMLK<span class="secondaryHighlight" title>AFEHGITPIMCCGETLEQREQGVTMDFIRQQVKVGFQ-NVTADQAK---TAV----IAYEPIWAIGTGKTATTEQAEEVCAGIR</span>ACIAEVYDEATAEAIR<span class="secondaryHighlight" title>IQYGGSVNAGNAAELFAQADIDGGLVGGASLKAD-FGKIVNYK</span>---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="R_gnavus tr|A7B2I0|A7B2I0_RUMGN">40</span></td><td><pre>
+	<span class="secondaryHighlight" title>KVLKAFEHGITPIMCCGETLEQREQGVTMDFIR</span>QQVK<span class="secondaryHighlight" title>VGFQ-NVTADQAK</span>---<span class="secondaryHighlight" title>TAV----IAYEPIWAIGTGKTATTEQAQEVCKGIRECIAEVYDEATAEAIRIQYGGSVNAATAPELFAQPDIDGGLVGGASLKAD-FGQIVNYK</span>---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title=" "></span></td><td><pre>
+	.           : * **       .                                  :****:::**:*              :                 : **** .  .    .     .* *:*.*.:       :
+</pre></td>
+			</tr><tr>
+				<td class="spacer"></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_jejuni gb|AIW10579.1">0</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_thermosulf 2506239969">1</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="F_novicida sp|A0Q8C4|TPIS_FRATN">2</span></td><td><pre>
+	CTE
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL111 hotlake_ucc|33136|Ga0071316_0767">3</span></td><td><pre>
+	DEG
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_bifidum tr|U2CD03|U2CD03_BIFBI">4</span></td><td><pre>
+	TRR
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="M_luteus tr|C5CBP6|C5CBP6_MICLC">5</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="M_smegmatis gi|500048087|ref|WP_011728805.1|">6</span></td><td><pre>
+	PLP
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_gilvus tr|F8A5J9|F8A5J9_CELGA">7</span></td><td><pre>
+	VGL
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_venezuelae gi|753968121|ref|WP_041663728.1|">8</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="A_cryptum ref|YP_001234366.1">9</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="R_palustris tr|Q6N5T2|Q6N5T2_RHOPA">10</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL91 hotlake_ucc|1708|Ga0058931_2651">11</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_denitrificans tr|A1BA25|A1BA25_PARDP">12</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="L_pneumophila gi|499250940|ref|WP_010948480.1|">13</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL48 hotlake_ucc|72346|CY41DRAFT_2828">14</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL93 hotlake_ucc|47046|Ga0071314_3416">15</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="D_acidovorans sp|A9BNB6|TPIS_DELAS">16</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="A_faecalis tr|J0B6R2|J0B6R2_ALCFA">17</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_freundii tr|X7I1B7|X7I1B7_CITFR">18</span></td><td><pre>
+	<span class="secondaryHighlight" title>K</span>QA
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_putida ref|NP_746823.1">19</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_baltica tr|A0A0A7K1G4|A0A0A7K1G4_9FLAO">20</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_indologenes tr|W4T3G7|W4T3G7_9FLAO">21</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="HL49 hotlake_ucc|60750|K302DRAFT_3095">22</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_ruminicola ref|YP_003575145.1|gi|294674529">23</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_fragilis tr|E1WMZ5|E1WMZ5_BACF6">24</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_thetatiotaomicron_ATCC sp|Q8A0U2|TPIS_BACTN">25</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_elongatus tr|Q31NS8|Q31NS8_SYNE7">26</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="F_succinogenes tr|C9RL06|C9RL06_FIBSS">27</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_hydrogenalis tr|B6W7U9|B6W7U9_9FIRM">28</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="M_xanthus ref|WP_011552884.1">29</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_aurantiaca gi|488693678|ref|WP_002617801.1|">30</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="P_polymyxa gi|503073330|ref|WP_013308264.1|">31</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_subtilis_168 sp|P27876|TPIS_BACSU">32</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="B_subtilis_NCBI3610 ref|WP_003243394.1">33</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="L_casei tr|S6C6P7|S6C6P7_LACCA">34</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="S_agalactiae tr|E7S505|E7S505_STRA8">35</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="F_prausnitzii tr|D4KD08|D4KD08_9FIRM">36</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_ljungdahlii CLJU_c39130">37</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="C_comes tr|C0B5F2|C0B5F2_9FIRM">38</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="D_longicatena tr|A6BJE0|A6BJE0_9FIRM">39</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title="R_gnavus tr|A7B2I0|A7B2I0_RUMGN">40</span></td><td><pre>
+	---
+</pre></td>
+			</tr><tr>
+				<td><span class="lineHeader" title=" "></span></td><td><pre>
+
+</pre></td>
+			</tr>
+		</table><form>
+			<table>
+				<tr>
+					<td><input type="checkbox" name="Acetyl" checked="checked" /><td>Acetyl</td></td>
+				</tr>
+			</table><script>
+				$(document).ready(function () {    $('input').on('change', function (d) {        $('.' + $(this).attr('name')).css('color', function (d) {            return $(this).css('color') === "rgb(255, 0, 0)" ? "rgb(0, 0, 0)" : "rgb(255, 0, 0)";        });    });});
+			</script>
+		</form>
+	</body>
